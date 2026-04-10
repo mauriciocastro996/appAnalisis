@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <!-- TITULO -->
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- CAMPO USUARIO -->
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Usuario"
+            android:padding="15dp"
+            android:backgroundTint="#3F51B5"
+            android:textSize="16sp"/>
+
+        <!-- CAMPO PASSWORD -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:backgroundTint="#3F51B5"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <!-- BOTON LOGIN -->
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="INGRESAR"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:backgroundTint="#3F51B5"
+            android:layout_marginTop="25dp"/>
+
+        <!-- BOTON BIOMETRICO -->
+        <Button
+            android:id="@+id/btnBiometrico"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="🔒 Huella / Face ID"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#009688"
+            android:layout_marginTop="15dp"/>
+
+        <!-- CREAR USUARIO -->
+        <TextView
+            android:id="@+id/tvCrearUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear Usuario"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="25dp"/>
+
+        <!-- OLVIDO PASSWORD -->
+        <TextView
+            android:id="@+id/tvOlvido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
